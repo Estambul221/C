@@ -1,0 +1,293 @@
+/* Basic Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Arial', sans-serif;
+  background-color: #111;
+  color: #fff;
+}
+
+header {
+  background-color: #222;
+  padding: 10px;
+}
+
+header h1 {
+  color: #d45308;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+}
+
+nav ul li {
+  margin-right: 20px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+}
+
+#home {
+  text-align: center;
+  padding: 50px 0;
+}
+
+#home h1 {
+  color: #d9472d;
+}
+
+.social-links a img {
+  width: 30px;
+  margin: 0 10px;
+}
+
+#sobre {
+  display: flex;
+  justify-content: space-around;
+  padding: 50px 0;
+  background-color: #000000;
+}
+
+.sobre-content img {
+  max-width: 250px;
+  border-radius: 40%;
+}
+
+.sobre-content .text ul {
+  list-style: none;
+  padding: 0;
+}
+
+.sobre-content .text ul li {
+  margin: 10px 0;
+}
+
+.download-btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #ff5900;
+  color: #111;
+  text-decoration: none;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+#habilidades {
+  padding: 50px;
+  text-align: center;
+}
+
+.habilidades-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.habilidade {
+  width: 200px;
+}
+
+.progress-bar {
+  background-color: #333;
+  height: 20px;
+  width: 100%;
+  border-radius: 10px;
+}
+
+.progress-bar div {
+  height: 100%;
+  background-color: #ff3c00;
+  border-radius: 10px;
+}
+
+/* Estilos aprimorados para a seção Educação */
+#educacao {
+  padding: 50px;
+  text-align: left;
+  background-color: #111;
+  border-left: 5px solid #ff5900;
+  margin-bottom: 20px;
+  font-family: 'Georgia', serif;
+}
+
+#educacao h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+  color: #ff5900;
+}
+
+#educacao ul li {
+  margin-bottom: 15px;
+  font-size: 1.1em;
+  color: #ddd;
+  padding: 10px;
+  background-color: #1a1a1a;
+  border-left: 3px solid #ff5900;
+  padding-left: 15px;
+}
+
+
+
+/* Estilos aprimorados para a seção Meus Serviços */
+#servicos {
+  padding: 50px;
+  text-align: left;
+  background-color: #111;
+  border-left: 5px solid #ff5900;
+  font-family: 'Georgia', serif;
+}
+
+#servicos h3 {
+  font-size: 1.5em;
+  color: #ff5900;
+  margin-bottom: 10px;
+}
+
+#servicos p {
+  font-size: 1em;
+  color: #eee;
+  line-height: 1.5em;
+  margin-bottom: 30px;
+}
+
+
+
+/* Estilos aprimorados para a seção Testemunhos */
+#testemunhos {
+  padding: 50px;
+  text-align: left;
+  background-color: #111;
+  border-left: 5px solid #ff5900;
+  font-family: 'Georgia', serif;
+}
+
+#testemunhos h2 {
+  font-size: 2em;
+  color: #ff5900;
+  margin-bottom: 20px;
+}
+
+.testemunho {
+  background-color: #1a1a1a;
+  padding: 20px;
+  border-left: 3px solid #ff5900;
+  margin-bottom: 20px;
+}
+
+.testemunho p {
+  font-size: 1em;
+  color: #ddd;
+  line-height: 1.6em;
+}
+
+.testemunho h4 {
+  margin-top: 10px;
+  font-size: 1.2em;
+  color: #ff5900;
+}
+
+
+/* Estilos aprimorados para a seção Portfolio */
+#portfolio {
+  padding: 50px;
+  text-align: center;
+  background-color: #111;
+}
+
+.portfolio-container {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  gap: 30px;
+}
+
+.portfolio-item {
+  background-color: #222;
+  padding: 20px;
+  border-radius: 10px;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  width: 45%; /* Ajusta a largura dos itens */
+  max-width: 400px;
+  box-sizing: border-box;
+}
+
+.portfolio-item:hover {
+  transform: translateY(-10px);
+  box-shadow: 0 10px 20px rgba(255, 111, 0, 0.5);
+}
+
+.portfolio-item img {
+  width: 100%;
+  height: auto;
+  border-radius: 10px;
+  transition: transform 0.3s ease;
+}
+
+.portfolio-item:hover img {
+  transform: scale(1.05);
+}
+
+.portfolio-item h3 {
+  color: #ff5900;
+  margin-top: 20px;
+  transition: color 0.3s ease;
+}
+
+.portfolio-item:hover h3 {
+  color: #ff9000;
+}
+
+.portfolio-item p {
+  color: #ddd;
+  margin-top: 10px;
+  font-size: 1em;
+  line-height: 1.5em;
+}
+
+
+
+
+
+
+/* Estilos para a seção Testemunhos */
+#testemunhos {
+  padding: 50px;
+  background-color: #222;
+  text-align: center;
+}
+
+.testemunho {
+  margin-bottom: 30px;
+}
+
+.testemunho h4 {
+  margin-top: 10px;
+  color: #ff1100;
+}
+
+/* Estilos para a seção Contactos */
+#contactos {
+  padding: 50px;
+  text-align: center;
+}
+
+#contactos p {
+  margin-bottom: 10px;
+}
+
+footer {
+  background-color: #222;
+  padding: 20px;
+  text-align: center;
+}
+
+footer p {
+  color: #ff2f00;
+}
